@@ -7,7 +7,7 @@ import pickle
 from PIL import Image
 
 # load dataset
-df = pd.read_csv('train.csv')
+df = pd.read_csv('clean_dataset.csv')
 
 # load model
 model = pickle.load(open('xgb_fix_tuned.pkl','rb'))
