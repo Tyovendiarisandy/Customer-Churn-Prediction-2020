@@ -56,7 +56,7 @@ def main():
         'total_night_calls': [total_night_calls],
         'total_night_charge': [total_night_charge],
         'total_intl_calls': [total_intl_calls],
-        'total_intl_calls': [total_intl_calls],
+        'total_intl_charge': [total_intl_charge],
         'number_customer_service_calls': [number_customer_service_calls]
         })
         
