@@ -31,13 +31,13 @@ def main():
     # choose menu input - selectbox for symptoms
     account_length = st.number_input('How is Your Account Length?', min_value=0, max_value=400)
     total_day_calls = st.number_input('How is Your Total Day Calls?', min_value=0, max_value=400)
-    total_day_charge = st.number_input('How is Your Total Day Charge?', min_value=0.0, max_value=400.0, format='%f')
+    total_day_charge = st.number_input('How is Your Total Day Charge?', min_value=0.0, max_value=400.0, step=0.01)
     total_eve_calls = st.number_input('How is Your Total Evening Calls?', min_value=0, max_value=400)
-    total_eve_charge = st.number_input('How is Your Total Evening Charge?', min_value=0.0, max_value=400.0, format='%f')
+    total_eve_charge = st.number_input('How is Your Total Evening Charge?', min_value=0.0, max_value=400.0, step=0.01)
     total_night_calls = st.number_input('How is Your Total Night Calls?', min_value=0, max_value=400)
-    total_night_charge = st.number_input('How is Your Total Night Charge?', min_value=0.0, max_value=400.0, format='%f')
+    total_night_charge = st.number_input('How is Your Total Night Charge?', min_value=0.0, max_value=400.0, step=0.01)
     total_intl_calls = st.number_input('How is Your Total International Calls?', min_value=0, max_value=400)
-    total_intl_charge = st.number_input('How is Your Total International Charge?', min_value=0.0, max_value=400.0, format='%f')
+    total_intl_charge = st.number_input('How is Your Total International Charge?', min_value=0.0, max_value=400.0, step=0.01)
     number_customer_service_calls = st.number_input('How is Your Total Customer Service Calls?', min_value=0, max_value=400)
 
     # prediction - button for predict
